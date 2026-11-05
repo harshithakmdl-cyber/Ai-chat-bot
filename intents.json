@@ -1,0 +1,24 @@
+{
+  "intents": [
+    {"tag": "greeting", "patterns": ["hi", "hello", "hey there", "good morning", "good evening"],
+     "responses": ["Hello! How can I help you today?", "Hi there! What can I do for you?"]},
+    {"tag": "goodbye", "patterns": ["bye", "goodbye", "see you later", "talk to you soon"],
+     "responses": ["Goodbye! Have a great day!", "See you later!"]},
+    {"tag": "thanks", "patterns": ["thanks", "thank you", "thanks a lot", "that was helpful"],
+     "responses": ["You're welcome!", "Happy to help!"]},
+    {"tag": "about", "patterns": ["who are you", "what is your name", "what are you", "tell me about yourself"],
+     "responses": ["I am a simple AI chatbot built with Python and Scikit-learn."]},
+    {"tag": "ai", "patterns": ["what is ai", "explain artificial intelligence", "define ai"],
+     "responses": ["AI (Artificial Intelligence) is when computers do tasks that normally need human thinking, like understanding language or recognising patterns."]},
+    {"tag": "ml", "patterns": ["what is machine learning", "explain ml", "define machine learning"],
+     "responses": ["Machine learning is a part of AI where a computer learns patterns from data instead of being given fixed rules."]},
+    {"tag": "iot", "patterns": ["what is iot", "explain internet of things", "define iot"],
+     "responses": ["IoT (Internet of Things) means everyday devices with sensors that connect to the internet and share data, like smart water monitors."]},
+    {"tag": "python", "patterns": ["what is python", "why use python", "tell me about python"],
+     "responses": ["Python is an easy-to-read programming language widely used for AI, web apps and automation."]},
+    {"tag": "cipher", "patterns": ["what is hill cipher", "explain hill cipher", "what is encryption"],
+     "responses": ["Encryption turns readable text into secret text. The Hill cipher does this using matrix multiplication."]},
+    {"tag": "help", "patterns": ["help", "what can you do", "how can you help me"],
+     "responses": ["I can chat and answer basic questions about AI, ML, IoT, Python and encryption. Type 'bye' to exit."]}
+  ]
+}
